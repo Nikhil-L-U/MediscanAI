@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MediscanAI</string>
+    <string name="title_activity_main">MediscanAI</string>
+    <string name="package_name">com.tarun.mediscanai</string>
+    <string name="custom_url_scheme">com.tarun.mediscanai</string>
+</resources>

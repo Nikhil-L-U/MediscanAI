@@ -1,7 +1,7 @@
 import http from 'http';
 
 const doctorId = "DOC001";
-const url = `http://localhost:5000/api/doctors/stats?doctorId=${doctorId}`;
+const url = `http://10.219.220.241:5000/api/doctors/stats?doctorId=${doctorId}`;
 
 console.log(`Testing API: ${url}`);
 
