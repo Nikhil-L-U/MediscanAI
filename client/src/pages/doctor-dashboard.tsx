@@ -176,7 +176,7 @@ export default function DoctorDashboard() {
                 </AvatarFallback>
               </Avatar>
               <div className="text-sm">
-                <p className="font-medium leading-none">Dr. {user.name}</p>
+                <p className="font-medium leading-none">{user.name}</p>
                 <p className="text-xs text-muted-foreground mt-0.5">Cardiology</p>
               </div>
             </div>
@@ -220,7 +220,7 @@ export default function DoctorDashboard() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold" data-testid="text-total-patients">{stats.totalPatients || 0}</div>
-                  <p className="text-xs text-muted-foreground mt-1">+2 from last week</p>
+                  <p className="text-xs text-muted-foreground mt-1">+3 from last week</p>
                 </CardContent>
               </Card>
             </motion.div>
